@@ -5,11 +5,11 @@ let handler = m => m;
  let responses; 
  if (/^ميجو$/i.test(m.text)) { 
  responses = [ 
- 'تحت امرك حبي'
+ 'تحت امرك يروحي'
  ]; 
  } else if (/^بوووت|بموووووووووت|بوت$/i.test(m.text)) { 
      responses = [ 
-'تحت امرك يا حبي'
+'تحت امرك يا روحي'
      ]; 
    } else if (/^اوامر$/i.test(m.text)) { 
      responses = [ 
